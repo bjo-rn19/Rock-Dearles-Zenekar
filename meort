@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Zenekar Weboldala</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #00f;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #00f;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+        }
+        h2 {
+            color: #00f;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .gallery img {
+            margin: 10px;
+            max-width: 300px;
+            max-height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rock Zenekar</h1>
+    </header>
+    <nav>
+        <a href="#about">Rólunk</a>
+        <a href="#music">Zenék</a>
+        <a href="#gallery">Galéria</a>
+        <a href="#contact">Kapcsolat</a>
+    </nav>
+    <section id="about">
+        <h2>Rólunk</h2>
+        <p>Egy 80-90-es évekbeli rock zenekar vagyunk, akik szenvedéllyel játszunk a dob, ritmusgitár és elektromos gitár hangszereken.</p>
+    </section>
+    <section id="music">
+        <h2>Zenék</h2>
+        <p>Itt hallgathatod meg legújabb zenéinket.</p>
+        <!-- Ide tudsz beágyazni zenéket, például YouTube vagy SoundCloud lejátszót -->
+    </section>
+    <section id="gallery">
+        <h2>Galéria</h2>
+        <div class="gallery">
+            <!-- Itt jelenítsük meg a fotókat -->
+            <img src="kep1.jpg" alt="Kép 1">
+            <img src="kep2.jpg" alt="Kép 2">
+            <img src="kep3.jpg" alt="Kép 3">
+            <!-- A fotók útvonalát az src attribútumban adhatod meg -->
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Kapcsolat</h2>
+        <p>Kapcsolatfelvétel: rockzenekar@example.com</p>
+    </section>
+</body>
+</html>
